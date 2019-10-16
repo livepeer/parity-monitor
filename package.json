@@ -1,0 +1,14 @@
+{
+  "name": "parity-monitor",
+  "version": "1.0.0",
+  "description": "Watches Parity node to see if it's falling behind",
+  "main": "parity-monitor.js",
+  "repository": "git@github.com:livepeer/parity-monitor.git",
+  "author": "Livepeer",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
