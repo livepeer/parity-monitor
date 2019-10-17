@@ -3,7 +3,7 @@ const fs = require("fs-extra");
 const os = require("os");
 const path = require("path");
 
-const REJECT_THRESH = 2 * 60 * 1000; // 10 mins
+const REJECT_THRESH = 10 * 60 * 1000; // 10 mins
 const CACHE_FILE = path.resolve(os.homedir(), "parity-monitor.json");
 const LOG_FILE = path.resolve(os.homedir(), "log");
 
